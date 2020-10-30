@@ -122,6 +122,7 @@ class TilesBoard:
     def printBoard(self):
         x = 0
         y = 0
+        # porque aquí no haces un for que se repita 9 veces
         for tile in (self.tiles):
             x = tile.getX()
             y = tile.getY()
